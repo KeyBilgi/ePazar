@@ -1,0 +1,14 @@
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\BulutWebApi.deps.json
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\BulutWebApi.runtimeconfig.json
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\BulutWebApi.runtimeconfig.dev.json
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\BulutWebApi.dll
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\BulutWebApi.pdb
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\obj\Debug\netcoreapp1.1\BulutWebApi.csprojResolveAssemblyReference.cache
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\obj\Debug\netcoreapp1.1\BulutWebApi.csproj.CoreCompileInputs.cache
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\obj\Debug\netcoreapp1.1\BulutWebApi.AssemblyInfo.cs
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\obj\Debug\netcoreapp1.1\BulutWebApi.dll
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\obj\Debug\netcoreapp1.1\BulutWebApi.pdb
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\Entities.dll
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\Core.dll
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\Entities.pdb
+C:\Users\BULUT\Documents\Visual Studio 2017\Projects\BulutWebApi\BulutWebApi\bin\Debug\netcoreapp1.1\Core.pdb
