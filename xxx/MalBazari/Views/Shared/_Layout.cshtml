@@ -1,0 +1,104 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap css -->
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/css/fontawesome-all.css">
+    <!-- Font-Awesome-Icons-CSS -->
+    <link href="~/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- pop-up-box -->
+    <link href="~/css/menu.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- menu style -->
+    <!-- //Custom-Files -->
+    <!-- web fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+          rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="~/js/jquery-2.2.3.min.js"></script>
+    <!-- //jquery -->
+
+    <!-- popup modal (for location)-->
+    <script src="~/js/jquery.magnific-popup.js"></script>
+    <!-- //popup modal (for location)-->
+
+    <!-- cart-js -->
+    <script src="~/js/minicart.js"></script>
+    <!-- //cart-js -->
+
+    <!-- scroll seller -->
+    <script src="~/js/scroll.js"></script>
+    <!-- //scroll seller -->
+    <!-- smoothscroll -->
+    <script src="~/js/SmoothScroll.min.js"></script>
+    <!-- //smoothscroll -->
+    <!-- start-smooth-scrolling -->
+    <script src="~/js/move-top.js"></script>
+    <script src="~/js/easing.js"></script>
+    <!-- //end-smooth-scrolling -->
+
+    <!-- for bootstrap working -->
+    <script src="~/js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap css -->
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/css/fontawesome-all.css">
+    <!-- Font-Awesome-Icons-CSS -->
+    <link href="~/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- pop-up-box -->
+    <link href="~/css/menu.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- menu style -->
+    <!-- //Custom-Files -->
+    <!-- web fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+          rel="stylesheet">
+
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+    <div>
+        @Html.Partial("_Head.cshtml")
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+        <div>
+            @Html.Partial("_Footer.cshtml")
+        </div>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
