@@ -10883,17 +10883,18 @@
     },
     "Core/1.0.0": {
       "type": "project",
-      "path": "../../../../../Projects/MalPazarı/MalBazari/Core/Core.csproj",
-      "msbuildProject": "../../../../../Projects/MalPazarı/MalBazari/Core/Core.csproj"
+      "path": "../../MalBazari/Core/Core.csproj",
+      "msbuildProject": "../../MalBazari/Core/Core.csproj"
     },
     "Entities/1.0.0": {
       "type": "project",
-      "path": "../../../../../Projects/MalPazarı/MalBazari/Entities/Entities.csproj",
-      "msbuildProject": "../../../../../Projects/MalPazarı/MalBazari/Entities/Entities.csproj"
+      "path": "../../MalBazari/Entities/Entities.csproj",
+      "msbuildProject": "../../MalBazari/Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.2",
@@ -10919,11 +10920,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\BULUT\\Documents\\Visual Studio 2017\\Projects\\BulutWebApi\\BulutWebApi\\BulutWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\BulutWebApi\\BulutWebApi\\BulutWebApi.csproj",
       "projectName": "BulutWebApi",
-      "projectPath": "C:\\Users\\BULUT\\Documents\\Visual Studio 2017\\Projects\\BulutWebApi\\BulutWebApi\\BulutWebApi.csproj",
+      "projectPath": "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\BulutWebApi\\BulutWebApi\\BulutWebApi.csproj",
       "packagesPath": "C:\\Users\\BULUT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BULUT\\Documents\\Visual Studio 2017\\Projects\\BulutWebApi\\BulutWebApi\\obj\\",
+      "outputPath": "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\BulutWebApi\\BulutWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BULUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10939,8 +10940,11 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\BULUT\\Projects\\MalPazarı\\MalBazari\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\BULUT\\Projects\\MalPazarı\\MalBazari\\Entities\\Entities.csproj"
+            "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\MalBazari\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\MalBazari\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\MalBazari\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\BULUT\\Documents\\GitHub\\ePazar\\MalBazari\\Core\\Core.csproj"
             }
           }
         }

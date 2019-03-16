@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Core.Utils
 {
-    public static class stData
+    public static class stcData
     {
         public static string strCon = "Server=localhost\\SQLEXPRESS;Database=malpazari;Trusted_Connection=True;";
     }

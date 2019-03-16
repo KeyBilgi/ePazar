@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v1.1": {
       "bulutwebapi/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.2",

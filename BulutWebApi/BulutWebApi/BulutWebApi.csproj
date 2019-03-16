@@ -38,12 +38,12 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Projects\MalPazarı\MalBazari\Entities\Entities.csproj" />
-  </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MalBazari\Core\Core.csproj" />
+    <ProjectReference Include="..\..\MalBazari\Entities\Entities.csproj" />
   </ItemGroup>
 
 

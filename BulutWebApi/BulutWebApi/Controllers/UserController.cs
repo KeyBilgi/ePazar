@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using Entities.Congrete;
+using Core;
+using Entities.Maneger;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,11 +16,16 @@ namespace BulutWebApi.Controllers
     public class UserController : Controller
     {
         [HttpGet]
-        public JsonResult GetUser()
+        public JsonResult GetAllUsers()
         {
-            malpazariContext context = new malpazariContext();
-            context.Blt0101Users.Find();
-            return Json(context.Blt0101Users.FirstOrDefault());
+            DataBaseContext context = new DataBaseContext();
+            return Json(context.Blt0101Users);
+        }
+        [HttpGet]
+        public JsonResult GetUser(string username)
+        {
+            DataBaseContext context = new DataBaseContext();
+            return Json(context.Blt0101Users.First(x => x.Kod == username));
         }
         public void Get()
         {
