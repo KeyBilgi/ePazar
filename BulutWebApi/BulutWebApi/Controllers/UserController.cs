@@ -16,12 +16,16 @@ namespace BulutWebApi.Controllers
     public class UserController : Controller
     {
         [HttpGet]
+        [ActionName("GetUsers")]
+        [Route("GetUsers")]
         public JsonResult GetUsers()
         {
             DataBaseContext context = new DataBaseContext();
             return Json(context.Blt0101Users);
         }
         [HttpGet]
+        [ActionName("GetUser")]
+        [Route("GetUser")]
         public JsonResult GetUser(string username)
         {
             DataBaseContext context = new DataBaseContext();

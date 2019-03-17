@@ -38,14 +38,23 @@ namespace BulutWebApi
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
             
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //       name: "default",
+            //       template: "{controller=User}/{action=GetUser}");
+            //});
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-           name: "default",
-           template: "{controller=User}/{action=GetUser}");
+                   name: "default",
+                   template: "{controller=User}/{action=GetUsers}/{id}",
+                   defaults: new { id = -1 }
+                   );
             });
 
-            
-        }
+
+        }   
     }
 }
